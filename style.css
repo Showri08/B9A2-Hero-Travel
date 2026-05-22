@@ -1,0 +1,94 @@
+
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+max-width: 1170px;
+margin: 0 auto;
+}
+/* shared */
+.color{
+    color:#FF5400 ;
+}
+.btn-primary{
+    background-color: #FF5400;
+    color: white;
+}
+
+/* nav */
+.nav-title{
+    font-size: 36px;
+    font-weight: bolder;
+    padding-left: 17px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+
+}
+.nav-img{
+    width: 48px;
+    height: 56px;
+}
+.nav-list{
+    display: flex;
+    gap: 44px;
+}
+.nav-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* explore */
+.explore{
+  
+   
+    
+}
+.explore-travel{
+       background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    display: flex;
+    justify-content: center;
+   
+     height: 500px;
+    width: 100%;
+    border-radius: 7px;
+    text-align: center;
+}
+.exp-title{
+    font-size: 64px;
+    margin-top: 106px;
+    margin-bottom: 35px;
+    font-weight: bolder;
+    color: white;
+}
+.epx-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 55px;
+}
+.exp-inputs{
+    background-color: #FFFFFF4d;
+  
+   border-radius: 10px;
+
+   
+
+}
+.box-size{
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    margin: 13px;
+    
+}
