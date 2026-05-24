@@ -351,6 +351,7 @@ padding-top: 32px;
     align-items: center;
     margin-top: 24px;
     margin-bottom: 24px;
+    gap: 10px;
 }
 .footer p{
     margin-top: 32px;
