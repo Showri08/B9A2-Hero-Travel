@@ -100,18 +100,24 @@ padding: 0 auto;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    
+    height: 550px;
 }
 .tour-popular{
    
 }
+.our-popular{
+    margin: none;
+    padding: none;
+}
 .tour-title{
     font-size: 40px;
     font-weight: #131313;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
+    margin-inline-start: 0px;
 }
 .tour-list li{
-   margin-bottom: 16px;
+   margin-bottom: 35px;
+   margin-top: 8px;
 }
 .tour-list{
     margin-bottom: 24px;
@@ -125,5 +131,171 @@ padding: 0 auto;
 
 }
 .tour-img{
-    height: 550px;
+
+}
+/* destination */
+.destination{
+    
+}
+.destination-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.des-img-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    
+   
+}
+.des-img-1 img{
+    height: 300;
+    width: 573px;
+
+}
+/* .des-img-1-names{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: -220px;
+    margin-bottom: 140px;
+    color: white;
+} */
+
+/* .des-names{
+margin-left: 291px;
+margin-right: 242px;
+} */
+
+.des-img-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.des-img-3{
+    display: flex;
+    justify-content: space-between;
+}
+/* choose-box */
+/* .choose-box{
+    display: flex;
+    flex-direction: column;
+} */
+ .choose-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+ }
+ .choose{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+ }
+ .choose-options{
+    width: 573px;
+    height: 284px;
+ }
+ .choose-options img{
+    margin-bottom: 32px;
+ }
+.choose-options-1{
+    background-color: #FBB56333;
+    border-radius: 10px;
+    margin: 24px;
+    padding-left: 20px;
+    padding-top: 32px;
+}
+.choose-options-2{
+    background-color: #29CEF633;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 32px;
+}
+.choose-options-3{
+background-color:#E9444433 ;
+border-radius: 10px;
+padding-left: 20px;
+padding-top: 32px;
+}
+/* deals */
+.tour{
+    background-color:#ffffffcc;
+    
+    margin-left:535px ;
+    padding-left: 50px;
+    margin-top: -448px;
+    width: 529px;
+    height: 389px;
+    position: absolute;
+    border-radius: 8px;
+}
+.tour p{
+    font-size: 16px;
+}
+.deals img{
+    height: 500px;
+    width: 100%;
+}
+.tour-2{
+    background-color:#ffffffcc;
+    
+    margin-left:56px ;
+    padding-left: 50px;
+    margin-top: -448px;
+    width: 529px;
+    height: 389px;
+    position: absolute;
+    border-radius: 8px;
+}
+.deals-tour-2{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.deals-btn{
+    padding: 13px 24px;
+    border: none;
+    border-radius: 7px;
+}
+.packages{
+    border: none;
+    border-radius: 7px;
+    padding: 13px 24px;
+
+
+}
+.packages-btn{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+/* Perfect-Place */
+.Perfect-Place{
+    display: flex;
+    justify-content: space-between;
+}
+.place-img img{
+    width: 610px;
+    height: 424px;
+}
+.place p {
+    margin: 24px 0px;
+}
+.place-list li {
+    margin-bottom: 16px;
+}
+.place-btn{
+    padding: 13px 24px;
+    margin-top: 32px;
+    border: none;
+    border-radius: 7px;
+
 }
